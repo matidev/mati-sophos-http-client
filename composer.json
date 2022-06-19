@@ -1,0 +1,27 @@
+{
+  "name": "matidev/sophos-http-client-php",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Bypass Sophos Login with 2FA",
+  "authors": [
+    {
+      "name": "Tien Mai",
+      "email": "matidev@outlook.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.1",
+    "robthree/twofactorauth": "^1.8",
+    "fabpot/goutte": "^4.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mati\\": "src"
+    }
+  }
+}
